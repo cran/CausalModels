@@ -35,7 +35,7 @@ default, simple is set to false.
 NOTE: if this is changed, the coefficient for treatment may not accurately represent the average causal effect.}
 
 \item{p.family}{the family to be used in the underlying propensity model.
-By default, this is set to \code{\link[stats:gaussian]{binomial}}.}
+By default, this is set to \code{\link[stats:binomial]{binomial}}.}
 
 \item{p.scores}{(optional) use calculated propensity scores for the weights. If using standardized weights,
 the numerator will still be modeled.}
@@ -70,15 +70,18 @@ general linear model whose coefficient for treatment represents the average trea
 \examples{
 library(causaldata)
 data(nhefs)
-nhefs.nmv <- nhefs[which(!is.na(nhefs$wt82)),]
+nhefs.nmv <- nhefs[which(!is.na(nhefs$wt82)), ]
 nhefs.nmv$qsmk <- as.factor(nhefs.nmv$qsmk)
 
-confounders <- c("sex", "race", "age", "education", "smokeintensity",
-                     "smokeyrs", "exercise", "active", "wt71")
+confounders <- c(
+  "sex", "race", "age", "education", "smokeintensity",
+  "smokeyrs", "exercise", "active", "wt71"
+)
 
 init_params(wt82_71, qsmk,
-            covariates = confounders,
-            data = nhefs.nmv)
+  covariates = confounders,
+  data = nhefs.nmv
+)
 
 # model using all defaults
 model <- ipweighting(data = nhefs.nmv)
@@ -88,4 +91,5 @@ summary(model)
 p.scores <- propensity_scores(nhefs.nmv)$p.scores
 model <- ipweighting(wt82_71 ~ qsmk, p.scores = p.scores, data = nhefs.nmv)
 summary(model)
+
 }

@@ -1,7 +1,7 @@
 Package: CausalModels
 Type: Package
 Title: Causal Inference Modeling for Estimation of Causal Effects
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: 
    c(person(given = "Joshua",
              family = "Anderson",
@@ -29,12 +29,12 @@ BugReports: https://github.com/ander428/CausalModels/issues
 Encoding: UTF-8
 RoxygenNote: 7.1.2
 Language: en-US
-Imports: stats, causaldata, boot, multcomp
+Imports: stats, causaldata, boot, multcomp, geepack
 NeedsCompilation: no
-Packaged: 2022-05-27 20:22:19 UTC; joshu
+Packaged: 2022-11-23 21:09:17 UTC; joshu
 Author: Joshua Anderson [aut, cre, cph],
   Cyril Rakovski [rev],
   Yesha Patel [rev],
   Erin Lee [rev]
 Repository: CRAN
-Date/Publication: 2022-05-30 15:40:02 UTC
+Date/Publication: 2022-11-23 21:30:02 UTC
