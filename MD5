@@ -1,6 +1,6 @@
-2e9007b94221dc633600310e2c3cd9c4 *DESCRIPTION
+09e7825cb6eacbbca2cb5fda2edf7019 *DESCRIPTION
 90da9ec397a0bda5013f933451daa836 *NAMESPACE
-f3f734d413cc65ab97c1dba558c345fa *NEWS.md
+6d528c1d1b770324449a9f6924915579 *NEWS.md
 38606d4de5f8f9a19ef34e3c69822ff6 *R/doubly_robust.R
 4b1f2a05271e93a04bebd99ea53c1a40 *R/gestimation.R
 c3893879a0a7ff864de68cda767a5987 *R/helper_funcs.R
@@ -8,12 +8,12 @@ adf8f73beaad08a273bf78068323e837 *R/imports.R
 6af8809b91631f2dc01c9be9c927b73c *R/initialize.R
 fc421f113dc6ceb188ef0e9c66ef6033 *R/ipweighting.R
 7f80479684a936c391338b0cf63e67b9 *R/iv_est.R
-2015d418ebe478cd6155a2c56080ca23 *R/outcome_regression.R
+59cd89829db01ff61a5dda1ab35e25c3 *R/outcome_regression.R
 d2c4d3ecc744fa44dcd31ef6fbb20563 *R/propensity_matching.R
 2c9c3486837369f7576536c149ff5b9f *R/propensity_scores.R
 1c11d1cfccdeee7cb6f72f092fac24f3 *R/standardization.R
 47d4ce4fa392e6e869c58bf90fb018bd *R/zzz.R
-9088305b30b54bbdc2ba1f12ce5b633b *README.md
+a596b61248a7ba988a1b2cdf6e73f4f3 *README.md
 008942bf93d0572017b77186cd459fbb *man/doubly_robust.Rd
 119017d3e4dc4a8b14bde9da36c51f91 *man/figures/README-pressure-1.png
 16284568f353388cbd6349b624ea08c2 *man/gestimation.Rd
